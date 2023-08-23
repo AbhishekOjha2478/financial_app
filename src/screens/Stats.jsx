@@ -1,10 +1,12 @@
 import React from "react";
+import { Element } from 'react-scroll';
+
 export default function Stats() {
   return (
     <>
-      <div className="section" id="section2">
+      <Element id="section2" name="section2" className="section">
       <div>Graph</div>
-      </div>
+    </Element>
     </>
   );
 }
