@@ -25,11 +25,49 @@ body {
   background-size: cover;
 }
 #landingtext{
-  padding: 0 300px;
   text-shadow: 2px 2px 5px rgb(2, 2, 2);
+width: 100%;
+text-align: center;
+background-color: #ffffff85;
+padding: 20px;
 }
 
 #piclogo{
   width: 80px;
 }
+
+#nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #085ed8;
+  color: white;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 67%);
+}
+
+#navlink{
+  width: 60%;
+}
+#navlink ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+#navsearch input{
+  border: none;
+  width: 84%;
+  padding: 10px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 67%);
+}
+#navsearch{
+  display: flex;
+}
+#navsearch button{
+  border:none;
+}
+
 
